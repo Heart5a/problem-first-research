@@ -1,0 +1,34 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --ink: #203238;
+  --muted: #53666b;
+  --accent: #16776f;
+  --accent-soft: #e9f4f1;
+  --rule: #dce5e2;
+}
+
+body {
+  color: var(--ink);
+  line-height: 1.78;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+}
+
+.wrapper { max-width: 820px; }
+.site-title, .site-title:visited, a { color: var(--accent); }
+.site-header { border-top: 4px solid var(--accent); border-bottom-color: var(--rule); }
+.site-title { font-weight: 700; }
+.page-content { padding-top: 42px; }
+.post-title, h1, h2, h3 { color: #173f42; line-height: 1.35; }
+h2 { margin-top: 2.2em; padding-bottom: .35em; border-bottom: 1px solid var(--rule); }
+h3 { margin-top: 1.6em; }
+blockquote { color: #294c4b; border-left: 4px solid #5aa99a; background: var(--accent-soft); padding: 12px 18px; }
+table { display: table; width: 100%; border-collapse: collapse; }
+th, td { padding: 10px 12px; border: 1px solid var(--rule); }
+th { background: var(--accent-soft); }
+.post-list > li { margin-bottom: 26px; }
+.post-meta { color: var(--muted); }
+code { color: #245c58; background: #f0f5f3; }

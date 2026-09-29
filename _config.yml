@@ -1,0 +1,21 @@
+title: Problem-First Research
+description: 从真实问题出发，走向可信的方法
+lang: zh-CN
+theme: minima
+url: https://heart5a.github.io
+baseurl: /problem-first-research
+show_excerpts: true
+header_pages:
+  - about.md
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: classic
+  social_links:
+    - platform: github
+      user_url: https://github.com/Heart5a
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
